@@ -9,5 +9,13 @@ public class MathApp {
 
         // print the highest salary
         System.out.println("The highest salary is " + highestSalary + ".");
+
+        // question 2: Variables for items
+        int carPrice = 35_000;
+        int truckPrice = 55_000;
+        int lowerCost = Math.min(carPrice,truckPrice);
+
+        // print the lowest price
+        System.out.println(lowerCost);
     }
 }

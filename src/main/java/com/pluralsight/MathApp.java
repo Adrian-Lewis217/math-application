@@ -24,5 +24,12 @@ public class MathApp {
 
         // print the answer
         System.out.println(areaOfCircle);
+
+        // question 4: Variables for items
+        double number = 5.0;
+        double squareRoot = Math.sqrt(number);
+
+        // print the answer
+        System.out.println(squareRoot);
     }
 }

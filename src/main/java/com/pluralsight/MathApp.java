@@ -42,5 +42,8 @@ public class MathApp {
         // print the distance
         System.out.println(distance);
 
+        // question 6: Variables for items
+
+
     }
 }

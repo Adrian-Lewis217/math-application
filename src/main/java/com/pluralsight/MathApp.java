@@ -33,6 +33,9 @@ public class MathApp {
         System.out.println(distance);
 
         // question 6: Variables for items
+        double negativeValue = -3.8;
+        double absoluteValue = Math.abs(negativeValue);
+        System.out.println("The absolute value of " + negativeValue + " is " + absoluteValue);
 
 
 

@@ -37,7 +37,9 @@ public class MathApp {
         double absoluteValue = Math.abs(negativeValue);
         System.out.println("The absolute value of " + negativeValue + " is " + absoluteValue);
 
-
+        // question 7: Variables for items
+        double randomNum = Math.random();
+        System.out.println(randomNum);
 
     }
 }

@@ -16,6 +16,13 @@ public class MathApp {
         int lowerCost = Math.min(carPrice,truckPrice);
 
         // print the lowest price
-        System.out.println(lowerCost);
+        System.out.println("The lowest price is " + lowerCost);
+
+        // question 3: Variables for items
+        double radius = 7.25;
+        double areaOfCircle = Math.pow(radius,2);
+
+        // print the answer
+        System.out.println(areaOfCircle);
     }
 }

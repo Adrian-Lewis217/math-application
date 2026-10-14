@@ -31,5 +31,16 @@ public class MathApp {
 
         // print the answer
         System.out.println(squareRoot);
+
+        // question 5: Variables for items
+        double point1 = 5;
+        double point2 = 10;
+        double point3 = 85;
+        double point4 = 50;
+        double distance = Math.sqrt(Math.pow(point2 - point1,2) + Math.pow(point3 - point4,2));
+
+        // print the distance
+        System.out.println(distance);
+
     }
 }

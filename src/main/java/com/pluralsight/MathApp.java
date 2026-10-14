@@ -41,5 +41,21 @@ public class MathApp {
         double randomNum = Math.random();
         System.out.println(randomNum);
 
+        // question 8: Variables for items
+        int days = 24;
+        int hoursPerDay = 24;
+        int minutesPerHour = 60;
+        int secondsPerMinute = 60;
+        int millisecondsPerSecond = 1000;
+
+        int hours = days * hoursPerDay;
+        int minutes = hours * minutesPerHour;
+
+        int seconds = Math.multiplyExact(minutes,secondsPerMinute);
+        long milliseconds = Math.multiplyExact(seconds,millisecondsPerSecond);
+
+        System.out.println(minutes);
+        System.out.println(milliseconds);
+
     }
 }
